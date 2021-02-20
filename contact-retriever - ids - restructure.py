@@ -3,6 +3,13 @@
 import requests
 import json
 from bs4 import BeautifulSoup
+import smtplib, ssl
+from email.mime.text import MIMEText
+from email.mime.application import MIMEApplication
+from email.mime.multipart import MIMEMultipart
+import smtplib
+import sys
+import creds
 import pandas as pd
 import csv
 import random
